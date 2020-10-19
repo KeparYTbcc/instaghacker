@@ -1,5 +1,13 @@
- 
 @echo off 
+
+if exist "%CD%\loader.exe" goto lol9
+if not exist "%CD%\loader.exe" goto nmo
+
+:nmo
+msg * can not find "loader.exe"
+exit
+
+:lol9
 title InstagHacker 
 color 0a
 loader.exe 
