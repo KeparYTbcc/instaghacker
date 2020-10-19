@@ -1,7 +1,8 @@
  
 @echo off 
 title InstagHacker 
-color 0a 
+color 0a
+loader.exe 
 cls 
 
 echo. 
